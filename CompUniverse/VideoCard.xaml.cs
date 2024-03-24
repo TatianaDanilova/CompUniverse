@@ -69,17 +69,17 @@ namespace CompUniverse
         private void VideoCard1ToOrder(object sender, RoutedEventArgs e)
         {
             Manager manager = new Manager();
-            manager.AddProduct(VideoCard1Name.Text, Convert.ToInt32(VideoCard1Price.Text));
+            manager.AddProduct(VideoCard1Name.Text, 19000);
         }
         private void VideoCard2ToOrder(object sender, RoutedEventArgs e)
         {
             Manager manager = new Manager();
-            manager.AddProduct(VideoCard2Name.Text, Convert.ToInt32(VideoCard2Price.Text));
+            manager.AddProduct(VideoCard2Name.Text, 25000);
         }
         private void VideoCard3ToOrder(object sender, RoutedEventArgs e)
         {
             Manager manager = new Manager();
-            manager.AddProduct(VideoCard3Name.Text, Convert.ToInt32(VideoCard3Price.Text));
+            manager.AddProduct(VideoCard3Name.Text, 225000);
         }
 
         private void ToOrder(object sender, RoutedEventArgs e)

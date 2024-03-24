@@ -55,7 +55,7 @@
                     </Label>
                 </Grid>
             </Grid>
-            <Button HorizontalAlignment="Right" Width="50" Height="50" HorizontalContentAlignment="Center" Margin="15" Background="DimGray">
+            <Button Click="ToOrder" HorizontalAlignment="Right" Width="50" Height="50" HorizontalContentAlignment="Center" Margin="15" Background="DimGray">
                 <Button.Content>
                     <StackPanel>
                         <Image Source="/Images/Order.jpeg" />
@@ -111,7 +111,7 @@
                                 <TextBlock Text="WD_BLACK™ SN850X NVMe™ SSD" TextWrapping="Wrap" Margin="10" FontWeight="Bold"/>
                                 <TextBlock FontSize="10" Text="2 TB SSD, подключение через PCI Express 4.0 x4 (NVMe) Form factor M.2 (2280), inkl. Kühlkörper макс. 6600 MB/s, макс. 7300 MB/s совместимость с Playstation™" TextWrapping="Wrap" Margin="10 0"/>
                                 <TextBlock Text="16 200 руб." Margin="10"/>
-                                <Button Content="Добавить в корзину" VerticalAlignment="Bottom" Margin="20 5" Style="{StaticResource Buy}"/>
+                                <Button Click="Disk1ToOrder" Content="Добавить в корзину" VerticalAlignment="Bottom" Margin="20 5" Style="{StaticResource Buy}"/>
                             </StackPanel>
                         </Border>
                     </Grid>
@@ -125,7 +125,7 @@
                                 <TextBlock Text="Seagate FireCuda 530 SSD 2TB" TextWrapping="Wrap" Margin="10" FontWeight="Bold"/>
                                 <TextBlock FontSize="10" Text="2 TB SSD, подключение через PCI Express 4.0 x4 (NVMe) Form factor M.2 (2280), ohne Kühlkörper макс. 6900 MB/s, макс. 7300 MB/s совместимость с Playstation™" TextWrapping="Wrap" Margin="10 0"/>
                                 <TextBlock Text="15 100 руб." Margin="10"/>
-                                <Button Content="Добавить в корзину" VerticalAlignment="Bottom" Margin="20 5" Style="{StaticResource Buy}"/>
+                                <Button Click="Disk2ToOrder" Content="Добавить в корзину" VerticalAlignment="Bottom" Margin="20 5" Style="{StaticResource Buy}"/>
                             </StackPanel>
                         </Border>
                     </Grid>
@@ -139,7 +139,7 @@
                                 <TextBlock Text="Samsung SSD 990 Pro NVMe M.2 1TB" TextWrapping="Wrap" Margin="10" FontWeight="Bold"/>
                                 <TextBlock FontSize="10" Text="1.0 TB SSD, подключение через PCI Express 4.0 x4 (NVMe) Form factor M.2 (2280), ohne Kühlkörper макс. 6900 MB/s, макс. 7450 MB/s Hardware encryption" TextWrapping="Wrap" Margin="10 0"/>
                                 <TextBlock Text="10 000 руб." Margin="10"/>
-                                <Button Content="Добавить в корзину" VerticalAlignment="Bottom" Margin="20 5" Style="{StaticResource Buy}"/>
+                                <Button Click="Disk3ToOrder" Content="Добавить в корзину" VerticalAlignment="Bottom" Margin="20 5" Style="{StaticResource Buy}"/>
                             </StackPanel>
                         </Border>
                     </Grid>

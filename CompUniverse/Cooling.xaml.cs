@@ -56,5 +56,27 @@ namespace CompUniverse
             disk.Show();
             this.Hide();
         }
+        private void Cooling1ToOrder(object sender, RoutedEventArgs e)
+        {
+            Manager manager = new Manager();
+            manager.AddProduct("be quiet! Dark Rock 4 135mm", 65500);
+        }
+        private void Cooling2ToOrder(object sender, RoutedEventArgs e)
+        {
+            Manager manager = new Manager();
+            manager.AddProduct("be quiet! Pure Rock 2 FX schwarz", 4200);
+        }
+        private void Cooling3ToOrder(object sender, RoutedEventArgs e)
+        {
+            Manager manager = new Manager();
+            manager.AddProduct("Enermax ETS-F40-ARGB F40 ARGB Edition", 4000);
+        }
+
+        private void ToOrder(object sender, RoutedEventArgs e)
+        {
+            Order order = new Order();
+            order.Show();
+            this.Hide();
+        }
     }
 }

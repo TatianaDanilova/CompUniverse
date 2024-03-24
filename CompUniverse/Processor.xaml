@@ -55,7 +55,7 @@
                     </Label>
                 </Grid>
             </Grid>
-            <Button HorizontalAlignment="Right" Width="50" Height="50" HorizontalContentAlignment="Center" Margin="15" Background="DimGray">
+            <Button Click="ButtonToOrder" HorizontalAlignment="Right" Width="50" Height="50" HorizontalContentAlignment="Center" Margin="15" Background="DimGray">
                 <Button.Content>
                     <StackPanel>
                         <Image Source="/Images/Order.jpeg" />
@@ -111,7 +111,7 @@
                                 <TextBlock Text="Intel Core i5-10600KF Box 4.1GHz 12MB-L3" TextWrapping="Wrap" Margin="10" FontWeight="Bold"/>
                                 <TextBlock FontSize="10" Text="High End Quad Core процессор, 125 W TDP 6 ядер / 12 Threads базовая частота: 4.10 GHz, частота в режиме Turbo: 4.80 GHz, 12 MB кэша L3" TextWrapping="Wrap" Margin="10 0"/>
                                 <TextBlock Text="15 300 руб." Margin="10"/>
-                                <Button Content="Добавить в корзину" VerticalAlignment="Bottom" Margin="20 5" Style="{StaticResource Buy}"/>
+                                <Button Click="Processor1ToOrder" Content="Добавить в корзину" VerticalAlignment="Bottom" Margin="20 5" Style="{StaticResource Buy}"/>
                             </StackPanel>
                         </Border>
                     </Grid>
@@ -125,7 +125,7 @@
                                 <TextBlock Text="Intel Core i7-13700K tray ohne Kühler" TextWrapping="Wrap" Margin="10" FontWeight="Bold"/>
                                 <TextBlock FontSize="10" Text="High End 16-Core процессор, Intel® UHD Graphics 770 встроенный, базовая частота: 3.40 GHz, частота в режиме Turbo: 5.40 GHz, 30 MB кэша L3" TextWrapping="Wrap" Margin="10 0"/>
                                 <TextBlock Text="46 000 руб." Margin="10"/>
-                                <Button Content="Добавить в корзину" VerticalAlignment="Bottom" Margin="20 5" Style="{StaticResource Buy}"/>
+                                <Button Click="Processor2ToOrder" Content="Добавить в корзину" VerticalAlignment="Bottom" Margin="20 5" Style="{StaticResource Buy}"/>
                             </StackPanel>
                         </Border>
                     </Grid>
@@ -139,7 +139,7 @@
                                 <TextBlock Text="Intel Core i7-10700KF Box 3.8 Ghz, LGA1200" TextWrapping="Wrap" Margin="10" FontWeight="Bold"/>
                                 <TextBlock FontSize="10" Text="High End Octa Core процессор,  65 W TDP, 8 ядер / 8 Threads, Intel® UHD Graphics 630 встроенный, базовая частота: 3.00 GHz" TextWrapping="Wrap" Margin="10 0"/>
                                 <TextBlock Text="23 600 руб." Margin="10"/>
-                                <Button Content="Добавить в корзину" VerticalAlignment="Bottom" Margin="20 5" Style="{StaticResource Buy}"/>
+                                <Button Click="Processor3ToOrder" Content="Добавить в корзину" VerticalAlignment="Bottom" Margin="20 5" Style="{StaticResource Buy}"/>
                             </StackPanel>
                         </Border>
                     </Grid>

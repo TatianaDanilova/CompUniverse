@@ -10,18 +10,23 @@
     <Window.Background>
         <ImageBrush ImageSource="/Images/Background.png"/>
     </Window.Background>
-    <Grid VerticalAlignment="Stretch" HorizontalAlignment="Stretch">
-        <Border  BorderThickness="3" CornerRadius="5" Background="LightGray" BorderBrush="Gray" HorizontalAlignment="Center" VerticalAlignment="Center" Width="450">
+    <Grid>
+        <Border  BorderThickness="3" CornerRadius="5" Background="LightGray" BorderBrush="Gray" Margin="20" Width="450">
             <Border.Effect>
                 <DropShadowEffect BlurRadius="40" Color="LightGray" ShadowDepth="0"/>
             </Border.Effect>
-            <StackPanel Margin="30 15">
-                <TextBlock Text="Ваш заказ:" TextWrapping="Wrap" Margin="10" FontSize="25" FontWeight="Bold"/>
-                <DataGrid>
-                    
+            <Grid>
+                <TextBlock Text="Ваш заказ:" VerticalAlignment="Top" TextWrapping="Wrap" Margin="10" FontSize="25" FontWeight="Bold"/>
+                <DataGrid x:Name="OrderDetailsGrid" Margin="20 60 20 90" FontSize="18" IsReadOnly="True" AutoGenerateColumns="False">
+                    <DataGrid.Columns>
+                        <DataGridTextColumn Header="Товар" Binding="{Binding Товар}" Width="3*" />
+                        <DataGridTextColumn Header="Цена" Binding="{Binding Цена}" Width="*"/>
+                    </DataGrid.Columns>
                 </DataGrid>
-                <Button x:Name="ToVideoCard" Margin="20" Content="Каталог" Background="Gray" Height="50" Width="225" FontSize="20" HorizontalContentAlignment="Center" Click="ToVideoCardClick"/>
-            </StackPanel>
+                <Button x:Name="ToVideoCard" VerticalAlignment="Bottom" HorizontalAlignment="Left" Margin="20" Content="Каталог" Background="Gray" Height="50" Width="200" FontSize="20" HorizontalContentAlignment="Center" Click="ToVideoCardClick"/>
+                <Button x:Name="Exit" VerticalAlignment="Bottom" HorizontalAlignment="Right" Margin="20" Content="Выход" Background="Gray" Height="50" Width="120" FontSize="20" HorizontalContentAlignment="Center" Click="ExitClick"/>
+            </Grid>
+                
         </Border>
     </Grid>
 </Window>

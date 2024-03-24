@@ -57,5 +57,27 @@ namespace CompUniverse
             cooling.Show();
             this.Hide();
         }
+        private void Processor1ToOrder(object sender, RoutedEventArgs e)
+        {
+            Manager manager = new Manager();
+            manager.AddProduct("Intel Core i5-10600KF Box 4.1GHz 12MB-L3", 15300);
+        }
+        private void Processor2ToOrder(object sender, RoutedEventArgs e)
+        {
+            Manager manager = new Manager();
+            manager.AddProduct("Intel Core i7-13700K tray ohne Kühler", 46000);
+        } 
+        private void Processor3ToOrder(object sender, RoutedEventArgs e)
+        {
+            Manager manager = new Manager();
+            manager.AddProduct("Intel Core i7-10700KF Box 3.8 Ghz, LGA1200", 23600);
+        }
+
+        private void ButtonToOrder(object sender, RoutedEventArgs e)
+        {
+            Order order = new Order();
+            order.Show();
+            this.Hide();  
+        }
     }
 }

@@ -74,10 +74,8 @@ namespace CompUniverse
                         cmd.CommandType = System.Data.CommandType.StoredProcedure;
                         cmd.Parameters.Add(new SqlParameter("@login_user", System.Data.SqlDbType.NVarChar, 100));
                         cmd.Parameters.Add(new SqlParameter("@password_user", System.Data.SqlDbType.NVarChar, 100));
-                        cmd.Parameters.Add(new SqlParameter("@email_user", System.Data.SqlDbType.NVarChar, 100));
                         cmd.Parameters["@login_user"].Value = LoginTextBox.Text;
                         cmd.Parameters["@password_user"].Value = PasswordBox.Password;
-                        cmd.Parameters["@email_user"].Value = EmailTextBox.Text;
 
                         cmd.ExecuteNonQuery();
                     }

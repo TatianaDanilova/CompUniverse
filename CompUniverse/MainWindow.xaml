@@ -20,8 +20,6 @@
                 <TextBox x:Name="LoginTextBox" Height="30" FontSize="22" FontFamily="Sitka Heading" Margin="0 0 0 5"/>
                 <TextBlock Text="Пароль"  FontSize="15"/>
                 <PasswordBox x:Name="PasswordBox" Height="30" FontSize="22" FontFamily="Sitka Heading" Margin="0 0 0 5"/>
-                <TextBlock Text="Почта (необязательное поле)" FontSize="15"/>
-                <TextBox x:Name="EmailTextBox" Height="30" FontSize="22" FontFamily="Sitka Heading" Margin="0 0 0 5"/>
                 <StackPanel Orientation="Horizontal">
                 <Button x:Name="RegestratoinButton" Margin="20" Content="Зарегистрироваться" Background="Gray" Height="50" Width="195" FontSize="20" HorizontalContentAlignment="Center" Click="RegestratoinButton_Click"/>
                     <Button x:Name="EntryButton" Margin="0" Content="Войти" Background="Gray" Height="50" Width="125" FontSize="20" HorizontalContentAlignment="Center" Click="EntrynButton_Click"/>

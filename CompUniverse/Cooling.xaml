@@ -55,7 +55,7 @@
                     </Label>
                 </Grid>
             </Grid>
-            <Button HorizontalAlignment="Right" Width="50" Height="50" HorizontalContentAlignment="Center" Margin="15" Background="DimGray">
+            <Button Click="ToOrder" HorizontalAlignment="Right" Width="50" Height="50" HorizontalContentAlignment="Center" Margin="15" Background="DimGray">
                 <Button.Content>
                     <StackPanel>
                         <Image Source="/Images/Order.jpeg" />
@@ -114,7 +114,7 @@
 1400 rpm @ 21.4 dB
 compatible sockets: 115x / 1200, 1700, 2011™" TextWrapping="Wrap" Margin="10 0"/>
                                 <TextBlock Text="65 500 руб." Margin="10"/>
-                                <Button Content="Добавить в корзину" VerticalAlignment="Bottom" Margin="20 5" Style="{StaticResource Buy}"/>
+                                <Button Click="Cooling1ToOrder" Content="Добавить в корзину" VerticalAlignment="Bottom" Margin="20 5" Style="{StaticResource Buy}"/>
                             </StackPanel>
                         </Border>
                     </Grid>
@@ -131,7 +131,7 @@ compatible sockets: 115x / 1200, 1700, 2011™" TextWrapping="Wrap" Margin="10 0
 2000 rpm @ 24.4 dB
 compatible sockets: 115x / 1200, 1700, 2011" TextWrapping="Wrap" Margin="10 0"/>
                                 <TextBlock Text="4 200 руб." Margin="10"/>
-                                <Button Content="Добавить в корзину" VerticalAlignment="Bottom" Margin="20 5" Style="{StaticResource Buy}"/>
+                                <Button Click="Cooling2ToOrder" Content="Добавить в корзину" VerticalAlignment="Bottom" Margin="20 5" Style="{StaticResource Buy}"/>
                             </StackPanel>
                         </Border>
                     </Grid>
@@ -147,7 +147,7 @@ compatible sockets: 115x / 1200, 1700, 2011" TextWrapping="Wrap" Margin="10 0"/>
 1x 140 mm Вентилятор (ШИМ)
 300 - 1200 rpm, (макс.74 cfm (125.7 m³/h) @ 23.0 dB" TextWrapping="Wrap" Margin="10 0"/>
                                 <TextBlock Text="4 000 руб." Margin="10"/>
-                                <Button Content="Добавить в корзину" VerticalAlignment="Bottom" Margin="20 5" Style="{StaticResource Buy}"/>
+                                <Button Click="Cooling3ToOrder" Content="Добавить в корзину" VerticalAlignment="Bottom" Margin="20 5" Style="{StaticResource Buy}"/>
                             </StackPanel>
                         </Border>
                     </Grid>

@@ -55,7 +55,7 @@
                     </Label>
                 </Grid>
             </Grid>
-            <Button HorizontalAlignment="Right" Width="50" Height="50" HorizontalContentAlignment="Center" Margin="15" Background="DimGray">
+            <Button Click="ToOrder" HorizontalAlignment="Right" Width="50" Height="50" HorizontalContentAlignment="Center" Margin="15" Background="DimGray">
                 <Button.Content>
                     <StackPanel>
                         <Image Source="/Images/Order.jpeg" />
@@ -114,7 +114,7 @@
                                     <TextBlock x:Name="Memory1Price" Text="13000" Margin="10"/>
                                     <TextBlock Text="руб." Margin="0 10 0 0"/>
                                 </StackPanel>
-                                <Button Content="Добавить в корзину" VerticalAlignment="Bottom" Margin="20 5" Style="{StaticResource Buy}"/>
+                                <Button Click="Memory1ToOrder" Content="Добавить в корзину" VerticalAlignment="Bottom" Margin="20 5" Style="{StaticResource Buy}"/>
                             </StackPanel>
                         </Border>
                     </Grid>
@@ -131,7 +131,7 @@
                                     <TextBlock x:Name="Memory2Price" Text="1100" Margin="10"/>
                                     <TextBlock Text="руб." Margin="0 10 0 0"/>
                                 </StackPanel>
-                                <Button Content="Добавить в корзину" VerticalAlignment="Bottom" Margin="20 5" Style="{StaticResource Buy}"/>
+                                <Button Click="Memory2ToOrder" Content="Добавить в корзину" VerticalAlignment="Bottom" Margin="20 5" Style="{StaticResource Buy}"/>
                             </StackPanel>
                         </Border>
                     </Grid>
@@ -148,7 +148,7 @@
                                     <TextBlock x:Name="Memory3Price" Text="1600" Margin="10"/>
                                     <TextBlock Text="руб." Margin="0 10 0 0"/>
                                 </StackPanel>
-                                <Button Content="Добавить в корзину" VerticalAlignment="Bottom" Margin="20 5" Style="{StaticResource Buy}"/>
+                                <Button Click="Memory3ToOrder" Content="Добавить в корзину" VerticalAlignment="Bottom" Margin="20 5" Style="{StaticResource Buy}"/>
                             </StackPanel>
                         </Border>
                     </Grid>

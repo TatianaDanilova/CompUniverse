@@ -55,7 +55,7 @@
                     </Label>
                 </Grid>
             </Grid>
-            <Button HorizontalAlignment="Right" Width="50" Height="50" HorizontalContentAlignment="Center" Margin="15" Background="DimGray">
+            <Button Click="ToOrder" HorizontalAlignment="Right" Width="50" Height="50" HorizontalContentAlignment="Center" Margin="15" Background="DimGray">
                 <Button.Content>
                     <StackPanel>
                         <Image Source="/Images/Order.jpeg" />
@@ -111,7 +111,7 @@
                                 <TextBlock Text="MSI MPG Z790 EDGE WiFi" TextWrapping="Wrap" Margin="10" FontWeight="Bold"/>
                                 <TextBlock FontSize="10" Text="ATX, Sockel 1700 Intel Z790, 4x DDR5 до 128 GB 2x PCIe (x16), 1x PCIe (x1) 7x SATA3, 6x M.2, Wi-Fi, 1x 2.5GBase-T 3x USB 3.1 Gen1 Typ C, 4x USB 3.1 Gen2, 5x USB3.0, 2x USB2.0 HDMI, 1x DisplayPort" TextWrapping="Wrap" Margin="10 0"/>
                                 <TextBlock Text="39 300 руб." Margin="10"/>
-                                <Button Content="Добавить в корзину" VerticalAlignment="Bottom" Margin="20 5" Style="{StaticResource Buy}"/>
+                                <Button Click="MotherBoard1ToOrder" Content="Добавить в корзину" VerticalAlignment="Bottom" Margin="20 5" Style="{StaticResource Buy}"/>
                             </StackPanel>
                         </Border>
                     </Grid>
@@ -125,7 +125,7 @@
                                 <TextBlock Text="MSI MPG B650 CARBON" TextWrapping="Wrap" Margin="10" FontWeight="Bold"/>
                                 <TextBlock FontSize="10" Text="ATX, Sockel AM5 AMD B650, 4x DDR5 до 128 GB 2x PCIe (x16), 1x PCIe (x1) 6x SATA3, 4x M.2, Wi-Fi, 1x 2.5GBase-T 1x USB 3.1 Gen2 Typ C, 7x USB 3.1 Gen2, 2x USB3.0, 4x USB2.0 HDMI, 1x DisplayPort" TextWrapping="Wrap" Margin="10 0"/>
                                 <TextBlock Text="30 000 руб." Margin="10"/>
-                                <Button Content="Добавить в корзину" VerticalAlignment="Bottom" Margin="20 5" Style="{StaticResource Buy}"/>
+                                <Button Click="MotherBoard2ToOrder" Content="Добавить в корзину" VerticalAlignment="Bottom" Margin="20 5" Style="{StaticResource Buy}"/>
                             </StackPanel>
                         </Border>
                     </Grid>
@@ -139,7 +139,7 @@
                                 <TextBlock Text="GIGABYTE B650 GAMING X" TextWrapping="Wrap" Margin="10" FontWeight="Bold"/>
                                 <TextBlock FontSize="10" Text="ATX, Sockel AM5 AMD B650, 4x DDR5 до 128 GB 3x PCIe (x16) 4x SATA3, 3x M.2, Wi-Fi, 1x 2.5GBase-T 2x USB 3.1 Gen2 Typ C, 1x USB 3.1 Gen2, 5x USB3.0, 7x USB2.0 HDMI, 1x DisplayPort 1.2" TextWrapping="Wrap" Margin="10 0"/>
                                 <TextBlock Text="20 700 руб." Margin="10"/>
-                                <Button Content="Добавить в корзину" VerticalAlignment="Bottom" Margin="20 5" Style="{StaticResource Buy}"/>
+                                <Button Click="MotherBoard3ToOrder" Content="Добавить в корзину" VerticalAlignment="Bottom" Margin="20 5" Style="{StaticResource Buy}"/>
                             </StackPanel>
                         </Border>
                     </Grid>

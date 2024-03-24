@@ -56,5 +56,28 @@ namespace CompUniverse
             cooling.Show();
             this.Hide();
         }
+
+        private void Disk1ToOrder(object sender, RoutedEventArgs e)
+        {
+            Manager manager = new Manager();
+            manager.AddProduct("WD_BLACK™ SN850X NVMe™ SSD", 16200);
+        }
+        private void Disk2ToOrder(object sender, RoutedEventArgs e)
+        {
+            Manager manager = new Manager();
+            manager.AddProduct("Seagate FireCuda 530 SSD 2TB", 15100);
+        }
+        private void Disk3ToOrder(object sender, RoutedEventArgs e)
+        {
+            Manager manager = new Manager();
+            manager.AddProduct("Samsung SSD 990 Pro NVMe M.2 1TB", 10000);
+        }
+
+        private void ToOrder(object sender, RoutedEventArgs e)
+        {
+            Order order = new Order();
+            order.Show();
+            this.Hide();
+        }
     }
 }

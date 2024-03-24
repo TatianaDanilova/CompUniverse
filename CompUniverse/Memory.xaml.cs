@@ -55,5 +55,28 @@ namespace CompUniverse
             cooling.Show();
             this.Hide();
         }
+
+        private void Memory1ToOrder(object sender, RoutedEventArgs e)
+        {
+            Manager manager = new Manager();
+            manager.AddProduct("Samsung 64GB DDR4 Modul Reg. ECC ОЗУ", 13000);
+        }
+        private void Memory2ToOrder(object sender, RoutedEventArgs e)
+        {
+            Manager manager = new Manager();
+            manager.AddProduct("G.Skill F3-1600C11S-4GNT 4GB DDR3 ОЗУ", 1300);
+        }
+        private void Memory3ToOrder(object sender, RoutedEventArgs e)
+        {
+            Manager manager = new Manager();
+            manager.AddProduct("Patriot Signature 4GB DDR3 ОЗУ", 1600);
+        }
+
+        private void ToOrder(object sender, RoutedEventArgs e)
+        {
+            Order order = new Order();
+            order.Show();
+            this.Hide();
+        }
     }
 }

@@ -110,10 +110,7 @@
                                 <Image Source="/Images/VideoCard1.jpg" VerticalAlignment="Top" Margin="10 10 10 0" Height="80"/>
                                 <TextBlock x:Name="VideoCard1Name" Text="XFX Radeon RX 6400 SWFT105 GAMING 4GB" TextWrapping="Wrap" Margin="10" FontWeight="Bold"/>
                                 <TextBlock FontSize="10" Text="AMD Radeon™ RX 6400, 4.0 GB GDDR6 (64bit), активное охлаждение (Single-Slot), 1x HDMI, 1x DisplayPort, 350 W блок питания рекомендуется" TextWrapping="Wrap" Margin="10 0"/>
-                                <StackPanel Orientation="Horizontal">
-                                    <TextBlock x:Name="VideoCard1Price" Text="19000" Margin="10"/>
-                                    <TextBlock Text="руб." Margin="0 10 0 0"/>
-                                </StackPanel>
+                                <TextBlock Text="19 000 руб." Margin="10"/>
                                 <Button Content="Добавить в корзину" VerticalAlignment="Bottom" Margin="20 5" Style="{StaticResource Buy}" Click="VideoCard1ToOrder"/>
                             </StackPanel>
                         </Border>
@@ -127,10 +124,7 @@
                                 <Image Source="/Images/VideoCard2.jpg" VerticalAlignment="Top" Margin="10 10 10 0"  Height="80"/>
                                 <TextBlock x:Name="VideoCard2Name" Text="GIGABYTE Radeon RX 6600XT Gaming OC 8GB" TextWrapping="Wrap" Margin="10" FontWeight="Bold"/>
                                 <TextBlock FontSize="10" Text="AMD Radeon™ RX 6600 XT, 8.0 GB GDDR6 (128bit), RGB подсветка2x HDMI, 2x DisplayPort, Power Supply: 1x 8 pin длина карты около 282 мм" TextWrapping="Wrap" Margin="10 0"/>
-                                <StackPanel Orientation="Horizontal">
-                                    <TextBlock x:Name="VideoCard2Price" Text="25000" Margin="10"/>
-                                    <TextBlock Text="руб." Margin="0 10 0 0"/>
-                                </StackPanel>
+                                <TextBlock Text="25 000 руб." Margin="10"/>
                                 <Button Content="Добавить в корзину" Click="VideoCard2ToOrder" VerticalAlignment="Bottom" Margin="20 5" Style="{StaticResource Buy}"/>
                             </StackPanel>
                         </Border>
@@ -144,10 +138,7 @@
                                 <Image Source="/Images/VideoCard3.jpg" VerticalAlignment="Top" Margin="10 10 10 0" Height="80"/>
                                 <TextBlock x:Name="VideoCard3Name" Text="ASUS ROG STRIX GeForce RTX 4090 GAMING 24G" TextWrapping="Wrap" Margin="10" FontWeight="Bold"/>
                                 <TextBlock FontSize="10" Text="NVIDIA® GeForce® RTX 4090, 24 GB GDDR6X (384bit), RGB подсветка2x HDMI, Power Supply: 1x 16 pin (12VHPWR), длина карты около 358 mm" TextWrapping="Wrap" Margin="10 0"/>
-                                <StackPanel Orientation="Horizontal">
-                                    <TextBlock x:Name="VideoCard3Price" Text="225000" Margin="10"/>
-                                    <TextBlock Text="руб." Margin="0 10 0 0"/>
-                                </StackPanel>
+                                <TextBlock Text="225 000 руб." Margin="10"/>
                                 <Button Content="Добавить в корзину" Click="VideoCard3ToOrder" VerticalAlignment="Bottom" Margin="20 5" Style="{StaticResource Buy}"/>
                             </StackPanel>
                         </Border>
@@ -157,3 +148,4 @@
         </Grid>
     </Grid>
 </Window>
+ 

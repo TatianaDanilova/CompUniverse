@@ -57,5 +57,28 @@ namespace CompUniverse
             cooling.Show();
             this.Hide();
         }
+
+        private void MotherBoard1ToOrder(object sender, RoutedEventArgs e)
+        {
+            Manager manager = new Manager();
+            manager.AddProduct("MSI MPG Z790 EDGE WiFi", 39300);
+        }
+        private void MotherBoard2ToOrder(object sender, RoutedEventArgs e)
+        {
+            Manager manager = new Manager();
+            manager.AddProduct("MSI MPG B650 CARBON", 30000);
+        }
+        private void MotherBoard3ToOrder(object sender, RoutedEventArgs e)
+        {
+            Manager manager = new Manager();
+            manager.AddProduct("GIGABYTE B650 GAMING X", 20700);
+        }
+
+        private void ToOrder(object sender, RoutedEventArgs e)
+        {
+            Order order = new Order();
+            order.Show();
+            this.Hide();
+        }
     }
 }
